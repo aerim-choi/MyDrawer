@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // 상단의 앱바레이아웃과 툴바를 이용하여 타이틀을 직접 만들었다
+        //상단의 앱바레이아웃과 툴바를 이용하여 타이틀을 직접 만들었다
+
         //함수를 이용하여 상단의 타이틀쪽에 상단툴바를 설정할수있다.
         setSupportActionBar(toolbar);
 
